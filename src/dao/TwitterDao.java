@@ -79,6 +79,8 @@ public class TwitterDao {
 
     public List<Post> getPosts() {
 
+        System.out.print("");
+
         List<Post> posts = new ArrayList<>();
 
         try {
